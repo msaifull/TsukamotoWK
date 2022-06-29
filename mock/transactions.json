@@ -1,0 +1,71 @@
+[
+    {
+    "_id": { "$oid": "6222882126f7cc72f30ea0eg" },
+    "personalDetail": {
+      "firstName": "dyandra",
+      "lastName": "andrea",
+      "email": "dyandra@gmail.com",
+      "role": "designer"
+    },
+    "participant": { "$oid": "6271ddc11699e43adecbb7f5" }, 
+    "event": { "$oid": "626cfa2b57cc0ef0eff75367" },
+    "historyEvent": {
+         
+        "title": "Bootcamp MERN",  "price": 1250000,  
+        "date": {    "$date": {      "$numberLong": "1649259377337"    }  },
+        "cover": "2022-04-30T08-58-19.648Z-bwalogosmall.png",  
+        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printe",  
+        "venueName": "bandar lampung",  
+        "tagLine": "tagline",  
+        "keyPoint": "[\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy\",\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy \"]",  
+        "category": {    "$oid": "624db6012e6727e09bdbd10a"  },  
+        "speaker": {    "$oid": "6261df021c31c8eafd9df0d4"  },  
+        "user": {    "$oid": "6242415c2a450db9af29e5d8"  }
+    },
+    "historyPayment": {
+        "type": "sewallet",  
+        "imageUrl": "2022-05-04T01-06-51.081Z-bwalogosmall.png"
+       
+    },
+    "payment": "6271d1ab7464769b744ca82c",
+
+    "createdAt": { "$date": "2022-03-04T21:44:01.981Z" },
+    "updatedAt": { "$date": "2022-03-04T21:44:01.981Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6222882126f7cc72f30ea0ef" },
+    "personalDetail":{   
+        "firstName": "doni",  
+        "lastName": "sanjaya",  
+        "email": "doni@gmail.com"
+        },
+    "participant": { "$oid": "6271f88c31dc9263c5375bf0" }, 
+    "event": { "$oid": "626e552d92f3a0eb590bc118" },
+    "historyEvent": {
+        
+        "title": "Bootcamp LARAVEL",  
+        "price": 1250000,  
+        "date": {    "$date": {      "$numberLong": "1649259377337"    }  },  
+        "cover": "2022-05-01T09-38-53.217Z-bwalogosmall.png",  
+        "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printe",  
+        "venueName": "bandar lampung",  
+        "tagLine": "tagline",  
+        "keyPoint": [    "Ford",    "BMW",    "Audi",    "Fiat"  ],  
+        "category": {    "$oid": "624db61b65a440774eb9a1a9"  },  
+        "speaker": {    "$oid": "625cc0fafa77c06e34c7cacc"  },  
+        "user": {    "$oid": "6242415c2a450db9af29e5d8"  }  
+      
+    },
+    "historyPayment": {
+        "type": "sewallet",  
+        "imageUrl": "2022-05-04T01-06-51.081Z-bwalogosmall.png" 
+       
+    },
+    "payment": "6271d1ab7464769b744ca82c",
+
+    "createdAt": { "$date": "2022-03-04T21:44:01.981Z" },
+    "updatedAt": { "$date": "2022-03-04T21:44:01.981Z" },
+    "__v": 0
+  }
+]
